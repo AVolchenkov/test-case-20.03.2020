@@ -75,10 +75,15 @@ ul {
   padding: 0; 
 }
 
-@import "./components/button";
-@import "./components/title";
+.wrapper {
+  width: 100%;
+  background-color: #F4F4F4;;
+  overflow: hidden;
+}
 
-@import "./partials/wrapper.scss";
+@import "./components/button";
+@import "./components/typography";
+
 @import "./partials/header.scss";
 @import "./partials/hero.scss";
 @import "./partials/about.scss";
@@ -87,4 +92,3 @@ ul {
 @import "./partials/our-works.scss";
 @import "./partials/clients.scss";
 @import "./partials/footer.scss";
-@import "media"; // Always at the end
