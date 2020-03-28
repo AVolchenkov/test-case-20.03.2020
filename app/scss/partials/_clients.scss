@@ -1,0 +1,54 @@
+.clients {
+  padding-top: 100px;
+
+  &__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -1px;
+  }
+
+  &__preview {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding-top: 8px;
+  }
+
+  &__overview {
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.7;
+    padding-top: 11px;
+  }
+
+  &__list {
+    padding: 74px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__icon-container {
+    display: flex;
+    align-items: center;
+
+    @media (min-width: 992px) {
+    }
+  }
+
+  &__icon {
+    opacity: 0.15;
+    transition: opacity 0.3s ease-in-out;
+    height: 20px;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    @media (min-width: 992px) {
+      height: auto;
+    }
+  }
+}
