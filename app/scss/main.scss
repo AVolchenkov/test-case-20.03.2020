@@ -67,5 +67,9 @@ a {
 	}
 }
 
+@import "./components/button";
+
+@import "./partials/wrapper.scss";
 @import "./partials/header.scss";
+@import "./partials/hero.scss";
 @import "media"; // Always at the end
