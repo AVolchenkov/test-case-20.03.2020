@@ -1,0 +1,16 @@
+.header {
+  padding-top: 43px;
+
+  &__burger {
+    width: 20px;
+    height: 20px;
+    background-color: #000000;
+    cursor: pointer;
+  }
+
+  &__search {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+}

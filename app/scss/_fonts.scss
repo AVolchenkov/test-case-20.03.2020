@@ -1,0 +1,17 @@
+@import "_mixins/font-face";
+
+// @include font-face("Fira Sans", "../fonts/FiraSans/FiraSans-Black", 900);
+// @include font-face("Fira Sans", "../fonts/FiraSans/FiraSans-BlackItalic", 900, italic);
+
+@include font-face("Fira Sans", "../fonts/FiraSans/FiraSans-Bold", 700);
+@include font-face("Fira Sans", "../fonts/FiraSans/FiraSans-BoldItalic", 700, italic);
+
+@include font-face("Fira Sans", "../fonts/FiraSans/FiraSans-Regular", 400);
+@include font-face("Fira Sans", "../fonts/FiraSans/FiraSans-Italic", 400, italic);
+
+@include font-face("Fira Sans", "../fonts/FiraSans/FiraSans-SemiBold", 400);
+@include font-face("Fira Sans", "../fonts/FiraSans/FiraSans-SemiBoldItalic", 400, italic);
+
+
+
+
