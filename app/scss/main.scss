@@ -71,8 +71,8 @@ li {
   list-style-type: none; 
 }
 ul {
-  margin-left: 0;
-  padding-left: 0; 
+  margin: 0;
+  padding: 0; 
 }
 
 @import "./components/button";
@@ -84,4 +84,5 @@ ul {
 @import "./partials/about.scss";
 @import "./partials/author.scss";
 @import "./partials/services.scss";
+@import "./partials/our-works.scss";
 @import "media"; // Always at the end
