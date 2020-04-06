@@ -1,27 +1,12 @@
 .services {
-  padding-top: 114px;
+  padding-top: 40px;
+
+  @media(min-width: 992px) {
+    padding-top: 114px;
+  }
 
   &__title {
     padding-top: 38px;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    letter-spacing: -1px;
-    text-align: center;
-
-    @media (min-width: 576px) {
-      font-size: 30px;
-      line-height: 40px;
-    }
-
-    @media (min-width: 768px) {
-      font-size: 40px;
-      line-height: 50px;
-    }
-
-    @media (min-width: 992px) {
-      text-align: inherit;
-    }
   }
 
   &__list {
@@ -44,7 +29,7 @@
     transition: all 0.3s ease-in-out;
 
     &:hover {
-      color: #1434e1;
+      color: $blue-text;
       opacity: 1;
     }
   }
@@ -53,7 +38,6 @@
     width: 100%;
     padding-top: 40px;
     display: block;
-    
 
     @media (min-width: 768px) {
       padding-top: 121px;

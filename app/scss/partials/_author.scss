@@ -5,11 +5,16 @@
     width: 65px;
     height: 65px;
     border-radius: 65px;
+    overflow: hidden;
+    margin-right: 31px;
+
+    &_img {
+      border-radius: 65px;
+    }
   }
 
   &__info {
     padding-top: 4px;
-    padding-left: 31px;
 
     .author__name {
       font-weight: 500;

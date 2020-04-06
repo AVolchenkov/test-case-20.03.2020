@@ -6,7 +6,7 @@
     font-size: 40px;
     line-height: 53px;
     letter-spacing: -1px;
-    color: #151515;
+    color: $black;
     text-align: center;
 
     @media (min-width: 992px) {
@@ -20,9 +20,6 @@
 
   &__text {
     padding-top: 19px;
-    font-size: 18px;
-    line-height: 28px;
-    opacity: 0.7;
     text-align: center;
 
     @media (min-width: 992px) {
@@ -31,17 +28,20 @@
     }
   }
 
-  &__btn {
+  &__btn-container {
     padding-top: 55px;
-    width: 100%;
     margin-bottom: 40px;
 
     @media (min-width: 768px) {
       margin: 0;
     }
+  }
+
+  &__btn {
+    min-width: 100%;
 
     @media (min-width: 992px) {
-      width: 189px;
+      min-width: 189px;
     }
   }
 

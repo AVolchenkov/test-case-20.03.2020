@@ -18,7 +18,7 @@ body {
   line-height: 1.65;
   font-family: $default-font;
   overflow-x: hidden;
-  color: $text;
+  color: $dark-gray;
   input,
   textarea {
     border: #666 1px solid;
@@ -68,16 +68,43 @@ a {
 }
 
 li {
-  list-style-type: none; 
+  list-style-type: none;
 }
 ul {
   margin: 0;
-  padding: 0; 
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -1px;
+  text-align: center;
+
+  @media (min-width: 576px) {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  @media (min-width: 992px) {
+    line-height: 50px;
+    font-size: 40px;
+    text-align: inherit;
+  }
 }
 
 .wrapper {
   width: 100%;
-  background-color: #F4F4F4;;
+  background-color: #f4f4f4;
   overflow: hidden;
 }
 

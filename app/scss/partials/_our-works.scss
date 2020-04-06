@@ -9,24 +9,13 @@
     padding-top: 37px;
   }
 
-  &__title {
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 50px;
-    letter-spacing: -1px;
-    text-align: center;
-
-    @media (min-width: 992px) {
-      text-align: inherit;
-    }
-  }
-
   &__list {
     display: block;
     margin-right: 5px;
 
     @media (min-width: 576px) {
       display: flex;
+      flex-wrap: wrap;
     }
   }
 
@@ -48,12 +37,12 @@
 
     &:hover,
     :focus {
-      color: #1434e1;
+      color: $blue-text;
       opacity: 1;
     }
 
     &_active {
-      color: #1434e1;
+      color: $blue-text;
       opacity: 1;
     }
   }
@@ -117,13 +106,19 @@
     justify-content: flex-end;
   }
 
-  &__btn {
-    width: 100%;
+  &__btn-container {
     padding-top: 40px;
 
     @media (min-width: 768px) {
-      width: 222px;
       padding-top: 0;
+    }
+  }
+
+  &__btn {
+    min-width: 100%;
+
+    @media (min-width: 768px) {
+      min-width: 222px;
     }
   }
 }
