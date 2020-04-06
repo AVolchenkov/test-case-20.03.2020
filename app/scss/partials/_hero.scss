@@ -4,14 +4,13 @@
   &__title {
     font-weight: bold;
     font-size: 40px;
-    line-height: 53px;
+    line-height: 1.18;
     letter-spacing: -1px;
     color: $black;
     text-align: center;
 
     @media (min-width: 992px) {
       padding-top: 68px;
-      line-height: 70px;
       font-size: 60px;
       text-align: inherit;
       max-width: 460px;

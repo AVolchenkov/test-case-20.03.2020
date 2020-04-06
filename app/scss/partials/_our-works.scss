@@ -22,7 +22,7 @@
   &__item {
     font-weight: 500;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 4px;
     text-transform: uppercase;
     opacity: 0.3;
@@ -55,7 +55,7 @@
     }
 
     @media (min-width: 992px) {
-      padding-top: 100px;
+      padding-top: 103px;
     }
   }
 
@@ -87,8 +87,8 @@
   }
 
   &__see-more {
-    padding-top: 54px;
-    padding-bottom: 40px;
+    padding-top: 51px;
+    padding-bottom: 43px;
 
     @media (min-width: 768px) {
       padding-bottom: 132px;
@@ -97,7 +97,7 @@
 
   &__see-more-text {
     font-size: 18px;
-    line-height: 28px;
+    line-height: 1.6;
     opacity: 0.7;
   }
 
