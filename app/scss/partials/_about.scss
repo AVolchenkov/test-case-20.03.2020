@@ -5,16 +5,6 @@
     padding-top: 129px;
   }
 
-  &__row {
-    display: flex;
-    flex-direction: column-reverse;
-
-    @media (min-width: 768px) {
-      flex-direction: inherit;
-      flex-wrap: wrap;
-    }
-  }
-
   &__title {
     padding-top: 0;
     font-weight: 600;
