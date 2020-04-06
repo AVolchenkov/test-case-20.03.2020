@@ -1,6 +1,5 @@
 .header {
   padding-top: 43px;
-
   &__burger {
     position: relative;
     width: 34px;
@@ -16,18 +15,16 @@
       height: 3px;
       background-color: #000000;
     }
-
     &:after {
       content: "";
-      background-color: #000000;
-      width: 18px;
-      height: 3px;
       position: absolute;
       top: 17px;
       right: 0;
+      width: 18px;
+      height: 3px;
+      background-color: #000000;
     }
   }
-
   &__search {
     width: 20px;
     height: 20px;

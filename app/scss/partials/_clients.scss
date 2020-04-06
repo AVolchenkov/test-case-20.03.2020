@@ -1,56 +1,52 @@
 .clients {
   padding-top: 40px;
-
   @media (min-width: 768px) {
     padding-top: 100px;
   }
+}
 
-  &__preview {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    padding-top: 8px;
+.clients__preview {
+  padding-top: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.clients__overview {
+  padding-top: 11px;
+  font-size: 18px;
+  line-height: 1.7;
+  opacity: 0.7;
+}
+
+.clients__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 15px;
+  @media (min-width: 768px) {
+    padding: 75px 15px;
   }
+}
 
-  &__overview {
-    font-size: 18px;
-    line-height: 1.7;
-    opacity: 0.7;
-    padding-top: 11px;
+.clients__item {
+  width: auto;
+}
+
+.clients__icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.clients__icon {
+  height: 20px;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0.15;
+  &:hover {
+    opacity: 1;
   }
-
-  &__list {
-    padding: 30px 15px;
-    display: flex;
-    justify-content: space-between;
-
-    @media (min-width: 768px) {
-      padding: 75px 15px;
-    }
-  }
-
-  &__item {
-    width: auto;
-  }
-
-  &__icon-container {
-    display: flex;
-    align-items: center;
-  }
-
-  &__icon {
-    opacity: 0.15;
-    transition: opacity 0.3s ease-in-out;
-    height: 20px;
-
-    &:hover {
-      opacity: 1;
-    }
-
-    @media (min-width: 992px) {
-      height: auto;
-    }
+  @media (min-width: 992px) {
+    height: auto;
   }
 }

@@ -1,52 +1,42 @@
 .hero {
   padding-top: 58px;
-
   &__title {
+    text-align: center;
+    color: $black;
     font-weight: bold;
     font-size: 40px;
     line-height: 1.18;
     letter-spacing: -1px;
-    color: $black;
-    text-align: center;
-
     @media (min-width: 992px) {
       padding-top: 68px;
+      max-width: 460px;
       font-size: 60px;
       text-align: inherit;
-      max-width: 460px;
     }
   }
-
   &__text {
     padding-top: 19px;
     text-align: center;
-
     @media (min-width: 992px) {
-      text-align: inherit;
       max-width: 460px;
+      text-align: inherit;
     }
   }
-
   &__btn-container {
     padding-top: 55px;
     margin-bottom: 40px;
-
     @media (min-width: 768px) {
       margin: 0;
     }
   }
-
   &__btn {
     min-width: 100%;
-
     @media (min-width: 992px) {
       min-width: 189px;
     }
   }
-
   &__placeholder-img {
     width: 100%;
-
     @media (min-width: 1380px) {
       width: calc(100% + 125px);
     }
