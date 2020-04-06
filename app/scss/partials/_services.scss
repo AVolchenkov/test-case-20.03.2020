@@ -26,16 +26,13 @@
 
   &__list {
     padding-top: 44px;
-    padding-left: 35px;
 
     @media (min-width: 768px) {
       padding-top: 44px;
-      padding-left: 60px;
     }
-    
+
     @media (min-width: 992px) {
       padding-top: 44px;
-      padding-left: 94px;
     }
   }
 
@@ -53,9 +50,10 @@
   }
 
   &__placeholder {
-    display: flex;
-    justify-content: center;
+    width: 100%;
     padding-top: 40px;
+    display: block;
+    
 
     @media (min-width: 768px) {
       padding-top: 121px;
