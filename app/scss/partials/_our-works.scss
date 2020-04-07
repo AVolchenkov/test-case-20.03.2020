@@ -28,7 +28,7 @@
   text-transform: uppercase;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-  opacity: 0.3;
+  opacity: .3;
   @media (min-width: 576px) {
     margin: 0;
   }
@@ -37,7 +37,7 @@
     color: $blue-text;
     opacity: 1;
   }
-  &--active {
+  &.our-works__item--active {
     color: $blue-text;
     opacity: 1;
   }
@@ -88,7 +88,7 @@
 .our-works__see-more-text {
   font-size: 18px;
   line-height: 1.6;
-  opacity: 0.7;
+  opacity: .7;
 }
 
 .our-works__btn-container {

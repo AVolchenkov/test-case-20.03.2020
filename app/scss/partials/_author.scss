@@ -18,6 +18,7 @@
 }
 
 .author__name {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -27,9 +28,10 @@
 }
 
 .author__position {
+  display: block;
   font-size: 14px;
   line-height: 1.5;
-  opacity: 0.7;
+  opacity: .7;
   @media (min-width: 768px) {
     font-size: 18px;
   }
