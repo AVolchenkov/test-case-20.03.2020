@@ -3,41 +3,46 @@
   @media (min-width: 992px) {
     padding-top: 114px;
   }
-  &__title {
-    padding-top: 38px;
-  }
-  &__list {
+}
+
+.services__title {
+  padding-top: 38px;
+}
+
+.services__list {
+  padding-top: 44px;
+  @media (min-width: 768px) {
     padding-top: 44px;
-    @media (min-width: 768px) {
-      padding-top: 44px;
-    }
-    @media (min-width: 992px) {
-      padding-top: 44px;
-    }
   }
-  &__item {
-    padding-bottom: 21px;
-    font-size: 18px;
-    line-height: 1.6;
-    transition: all 0.3s ease-in-out;
-    opacity: 0.5;
-    &:hover {
-      color: $blue-text;
-      opacity: 1;
-    }
+  @media (min-width: 992px) {
+    padding-top: 44px;
   }
-  &__placeholder {
-    padding-top: 40px;
-    display: block;
-    width: 100%;
-    @media (min-width: 768px) {
-      padding-top: 121px;
-    }
+}
+
+.services__item {
+  padding-bottom: 21px;
+  font-size: 18px;
+  line-height: 1.6;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.5;
+  &:hover {
+    color: $blue-text;
+    opacity: 1;
   }
-  &__placeholder-img {
-    width: 100%;
-    @media (min-width: 1200px) {
-      width: auto;
-    }
+}
+
+.services__placeholder {
+  padding-top: 40px;
+  display: block;
+  width: 100%;
+  @media (min-width: 768px) {
+    padding-top: 121px;
+  }
+}
+
+.services__placeholder-img {
+  width: 100%;
+  @media (min-width: 1200px) {
+    width: auto;
   }
 }

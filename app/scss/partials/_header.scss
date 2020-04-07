@@ -1,33 +1,35 @@
-.header {
+#header {
   padding-top: 43px;
-  &__burger {
-    position: relative;
-    width: 34px;
-    height: 20px;
-    cursor: pointer;
+}
 
-    span {
-      position: absolute;
-      top: 6px;
-      left: 0;
-      right: 0;
-      width: 34px;
-      height: 3px;
-      background-color: #000000;
-    }
-    &:after {
-      content: "";
-      position: absolute;
-      top: 17px;
-      right: 0;
-      width: 18px;
-      height: 3px;
-      background-color: #000000;
-    }
+.header__burger {
+  position: relative;
+  width: 34px;
+  height: 20px;
+  cursor: pointer;
+
+  span {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    right: 0;
+    width: 34px;
+    height: 3px;
+    background-color: #000000;
   }
-  &__search {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
+  &:after {
+    content: "";
+    position: absolute;
+    top: 17px;
+    right: 0;
+    width: 18px;
+    height: 3px;
+    background-color: #000000;
   }
+}
+
+.header__search {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
 }
