@@ -15,7 +15,7 @@ body {
   position: relative;
   overflow-x: hidden;
   min-width: 320px;
-  font: 16px/1.65 $default-font;
+  font: 18px/1.6 $default-font;
   color: $dark-gray;
 
   input,
@@ -76,8 +76,6 @@ ul {
 p {
   margin: 0;
   padding: 0;
-  font-size: 18px;
-  line-height: 1.6;
   opacity: .7;
 }
 

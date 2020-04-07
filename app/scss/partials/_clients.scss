@@ -1,7 +1,7 @@
 .clients {
   padding-top: 40px;
   @media (min-width: 768px) {
-    padding-top: 100px;
+    padding-top: 105px;
   }
 }
 
@@ -32,11 +32,6 @@
 
 .clients__item {
   width: auto;
-}
-
-.clients__icon-container {
-  display: flex;
-  align-items: center;
 }
 
 .clients__icon {

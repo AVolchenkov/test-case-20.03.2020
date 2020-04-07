@@ -1,33 +1,25 @@
 .services {
-  padding-top: 40px;
+  padding: 20px 0;
   @media (min-width: 992px) {
-    padding-top: 114px;
+    padding-top: 58px;
+    padding-bottom: 55px;
   }
-}
-
-.services__title {
-  padding-top: 38px;
 }
 
 .services__list {
-  padding-top: 44px;
-  @media (min-width: 768px) {
-    padding-top: 44px;
+  padding-top: 20px;
+  @media(min-width: 768px) {
+    padding-top: 6px;
   }
-  @media (min-width: 992px) {
-    padding-top: 44px;
-  }
-}
 
-.services__item {
-  padding-bottom: 21px;
-  font-size: 18px;
-  line-height: 1.6;
-  transition: all 0.3s ease-in-out;
-  opacity: .5;
-  &:hover {
-    color: $blue-text;
-    opacity: 1;
+  li {
+    padding-bottom: 21px;
+    transition: all 0.3s ease-in-out;
+    opacity: .5;
+    &:hover {
+      color: $blue-text;
+      opacity: 1;
+    }
   }
 }
 
