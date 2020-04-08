@@ -1,34 +1,38 @@
 .author {
   display: flex;
+}
 
-  &__avatar {
-    width: 65px;
-    height: 65px;
+.author__avatar {
+  width: 65px;
+  height: 65px;
+  margin-right: 31px;
+  border-radius: 65px;
+  overflow: hidden;
+  &_img {
     border-radius: 65px;
   }
+}
 
-  &__info {
-    padding-top: 4px;
-    padding-left: 31px;
+.author__info {
+  padding-top: 4px;
+}
 
-    .author__name {
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 32px;
+.author__name {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  @media (min-width: 768px) {
+    font-size: 22px;
+  }
+}
 
-      @media (min-width: 768px) {
-        font-size: 22px;
-      }
-    }
-
-    .author__position {
-      font-size: 14px;
-      line-height: 28px;
-      opacity: 0.7;
-
-      @media (min-width: 768px) {
-        font-size: 18px;
-      }
-    }
+.author__position {
+  display: block;
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: .7;
+  @media (min-width: 768px) {
+    font-size: inherit;
   }
 }

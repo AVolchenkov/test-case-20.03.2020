@@ -12,13 +12,12 @@
 }
 
 body {
-  font-size: 16px;
-  min-width: 320px;
   position: relative;
-  line-height: 1.65;
-  font-family: $default-font;
   overflow-x: hidden;
-  color: $text;
+  min-width: 320px;
+  font: 18px/1.6 $default-font;
+  color: $dark-gray;
+
   input,
   textarea {
     border: #666 1px solid;
@@ -52,7 +51,6 @@ strong {
 
 a {
   color: inherit;
-
   &:hover {
     text-decoration: none;
     color: inherit;
@@ -61,28 +59,50 @@ a {
 
 .hover {
   transition: opacity 0.3s ease-in-out;
-
   &:hover {
-    opacity: 0.6;
+    opacity: .6;
   }
 }
 
 li {
-  list-style-type: none; 
-}
-ul {
-  margin: 0;
-  padding: 0; 
+  list-style-type: none;
 }
 
-.wrapper {
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  opacity: .7;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: -1px;
+  text-align: center;
+  @media (min-width: 576px) {
+    font-size: 30px;
+  }
+  @media (min-width: 992px) {
+    font-size: 40px;
+    text-align: inherit;
+  }
+}
+
+#wrapper {
   width: 100%;
-  background-color: #F4F4F4;;
+  background-color: #f4f4f4;
   overflow: hidden;
 }
 
 @import "./components/button";
 @import "./components/typography";
+@import "./components/container";
 
 @import "./partials/header.scss";
 @import "./partials/hero.scss";

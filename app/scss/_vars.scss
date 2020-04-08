@@ -1,8 +1,11 @@
 $default-font: "Fira Sans", sans-serif;
-$accent: orange;
-$text: #222;
 
-// Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
+$accent: orange;
+$dark-gray: #222;
+$black: #151515;
+$blue-text: #1434E1;   
+$blue-button: #4737FF;   
+
 $grid-gutter-width: 30px;
 $grid-columns: 12;
 $grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
